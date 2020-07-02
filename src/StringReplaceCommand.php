@@ -52,7 +52,7 @@ class StringReplaceCommand extends GeneratorCommand
         $model = $this->argument('model');
 
         if ($model) {
-            $nameSpace = config('string-replce.model_namespace').$model;
+            $nameSpace = config('string-replace.model_namespace').$model;
         
             $replace = ['DummyModelNamespace', 'DummyModel', 'dummyModel'];
             $replacement = [$nameSpace, $model, strtolower($model)];
