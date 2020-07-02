@@ -1,13 +1,13 @@
 <?php
 
-namespace Jkque\LaravelStringReplace;
+namespace Jkque\StringReplace;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Jkque\LaravelStringReplace\Skeleton\SkeletonClass
+ * @see \Jkque\StringReplace\Skeleton\SkeletonClass
  */
-class LaravelStringReplaceFacade extends Facade
+class StringReplaceFacade extends Facade
 {
     /**
      * Get the registered name of the component.
@@ -16,6 +16,6 @@ class LaravelStringReplaceFacade extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'laravel-string-replace';
+        return 'string-replace';
     }
 }

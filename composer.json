@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Jkque\\LaravelStringReplace\\": "src"
+            "Jkque\\StringReplace\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Jkque\\LaravelStringReplace\\Tests\\": "tests"
+            "Jkque\\StringReplace\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -44,10 +44,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Jkque\\LaravelStringReplace\\LaravelStringReplaceServiceProvider"
+                "Jkque\\StringReplace\\StringReplaceServiceProvider"
             ],
             "aliases": {
-                "LaravelStringReplace": "Jkque\\LaravelStringReplace\\LaravelStringReplaceFacade"
+                "StringReplace": "Jkque\\StringReplace\\StringReplaceFacade"
             }
         }
     }

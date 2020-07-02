@@ -1,0 +1,20 @@
+<?php
+
+namespace DummyNamespace;
+
+use Jkque\StringReplace\StringReplace;
+
+class DummyClass extends StringReplace
+{
+    /**
+     * For more complex string replace
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        $this->variables([
+            'string' => 'to replace',
+        ]);
+    }
+}
