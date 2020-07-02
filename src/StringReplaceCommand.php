@@ -52,7 +52,7 @@ class StringReplaceCommand extends GeneratorCommand
         $model = $this->argument('model');
 
         if ($model) {
-            $nameSpace = $this->laravel->getNamespace().$model;
+            $nameSpace = config('string-replce.model_namespace').$model;
         
             $replace = ['DummyModelNamespace', 'DummyModel', 'dummyModel'];
             $replacement = [$nameSpace, $model, strtolower($model)];
