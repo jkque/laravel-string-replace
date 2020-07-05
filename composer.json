@@ -1,6 +1,6 @@
 {
     "name": "jkque/laravel-string-replace",
-    "description": "a nicer way to str_replace",
+    "description": "Helper for a messy str_replace",
     "keywords": [
         "jkque",
         "laravel-string-replace"

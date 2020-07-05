@@ -2,7 +2,6 @@
 
 namespace Jkque\StringReplace\Tests;
 
-use Illuminate\Support\Facades\Artisan;
 use Jkque\StringReplace\StringReplace;
 use Orchestra\Testbench\TestCase;
 use Jkque\StringReplace\StringReplaceServiceProvider;
@@ -59,5 +58,4 @@ class UserStringReplace extends StringReplace
             '@name' => $user->name,
         ]);
     }
-
 }
