@@ -1,7 +1,6 @@
 # For complex string replace
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/jkque/laravel-string-replace.svg?style=flat-square)](https://packagist.org/packages/jkque/laravel-string-replace)
-[![Build Status](https://img.shields.io/travis/jkque/laravel-string-replace/master.svg?style=flat-square)](https://travis-ci.org/jkque/laravel-string-replace)
 [![Total Downloads](https://img.shields.io/packagist/dt/jkque/laravel-string-replace.svg?style=flat-square)](https://packagist.org/packages/jkque/laravel-string-replace)
 
 This package will help you when [str_replace](https://www.php.net/manual/en/function.str-replace.php) gets a little bit messy.
